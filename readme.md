@@ -192,6 +192,15 @@ notes.remove(note);
 ## 結論
 由這些例子來看，應該可以看出LokiJS的操作是相當簡潔的，除此之外，LokiJS也提供了View，可將查詢預先設計好用View來當作資料集，亦可透過Index加速查詢的結果，就功能面上已經是非常完整的資料庫了。下一回，將分享簡單的代辦事項作為LokiJS的資料庫練習。
 
+## 範例下載
+
+```
+git clone https://github.com/resnick1223/LokiJS-Introduction.git
+cd LokiJS-Introduction
+npm install
+node index.js
+```
+
 ## 參考資料
 - https://rawgit.com/techfort/LokiJS/master/jsdoc/index.html
 - https://phchu.blogspot.tw/2016/05/basic-crud-operations-in-lokijs.html
